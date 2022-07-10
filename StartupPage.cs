@@ -4,12 +4,11 @@
     {
         public StartupPage()
         {
-            var graphics = new GraphicsView() { HeightRequest = 200, WidthRequest = 200};
+            var graphics = new GraphicsView() { HeightRequest = 200, WidthRequest = 200, BackgroundColor = Colors.Transparent};
             var graphicsDrawable = new OutlineGraphicsDrawable();
             graphics.Drawable = graphicsDrawable;
 
             Content = graphics;
-            BackgroundColor = Colors.Transparent;
 
         }
 
